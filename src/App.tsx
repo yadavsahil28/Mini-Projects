@@ -1,11 +1,8 @@
-import { ImageGallery } from "./components/ImageGallery/ImageGallery"
+import { RouterProvider } from "react-router-dom"
+import { router } from "./routes/router"
 
 const App = () => {
-  return (
-    <div>
-      <ImageGallery />
-    </div>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
