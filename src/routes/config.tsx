@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import { ImageGallery } from "../components/ImageGallery/ImageGallery";
+import { Accordion } from "../components/Accordion/Accordion";
 
 export type RouteType = {
     id: string;
@@ -8,5 +9,6 @@ export type RouteType = {
 };
 
 export const routes: RouteType[] = [
-    {id: "imagegallery", title: "Image Gallery", element: <ImageGallery/>}
+    {id: "imagegallery", title: "Image Gallery", element: <ImageGallery/>},
+    {id: "accordion", title: "Accordion", element: <Accordion />}
 ];
